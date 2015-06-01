@@ -19,12 +19,7 @@ html, body {
 }
 
 body {
-	background: #eeeeee;
-	background: -webkit-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -moz-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -o-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: -ms-linear-gradient(top, #eeeeee, #cccccc 100%);
-	background: linear-gradient(top, #eeeeee, #cccccc 100%);
+	background: #0F131A;
 	background-attachment:fixed;
 }
 
@@ -102,39 +97,34 @@ h4 {
 	left:0;
 	width:100%;
 	height:100%;
-	background:url(images/bubbles.png) repeat 0 0;
+	background: url(../img/questions.png) repeat 0 0;
 }
 
 #bg2 {
 	z-index:49;
-	background-image:url(images/bubbles2.png);
+	background-image: url(../img/questions2.png);
 }
 
 #bg3 {
 	z-index:48;
-	background-image:url(images/bubbles3.png);
+	background-image:url(../img/questions3.png);
 }
 
 #intro {
 	width:80%;
 	left:50%;
 	top:1em;
-	margin-left:-40%;
+	margin-left:-47%;
 	padding:2em;
-	background:#fff;
 	text-align:center;
-	border-radius:1em;
-
-	-webkit-transform-origin:0 0;
-	-moz-transform-origin:0 0;
-	-ms-transform-origin:0 0;
-	-o-transform-origin:0 0;
-	transform-origin:0 0;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
 }
+#intro h1 {
+    color: #808387;
+}
+#intro h2 {
+    color: #606468;
+}
+
 
 #intro .arrows {
 	font-size:2em;
