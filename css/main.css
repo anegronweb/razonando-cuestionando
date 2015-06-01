@@ -114,7 +114,7 @@ h4 {
 	width:80%;
 	left:50%;
 	top:1em;
-	margin-left:-47%;
+	margin-left: -47%;
 	padding:2em;
 	text-align:center;
 }
@@ -131,26 +131,19 @@ h4 {
 	color:#09f;
 }
 
-#transform {
-	width:70%;
-	left:50%;
-	top:20%;
-	margin-left:-35%;
-	text-align:center;
-	font-size:150%;
-
-	.transform-origin(50%, 50%);
-}
-
-#properties {
-	width:100%;
-	height:100%;
+#quote-1 {
+	width:90%;
+	height:50%;
 	padding-top:10%;
 	text-align:center;
-
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+}
+#quote-1 q {
+    font-size: 2.5em;
+    color: #808387;
+}
+#quote-1 p {
+    font-size: 3em;
+    color: #808387;
 }
 
 #easing_wrapper {
