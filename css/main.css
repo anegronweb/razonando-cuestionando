@@ -40,14 +40,15 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 @media \0screen {
   img { 
   	width: auto; /* for ie 8 */
   }
 }
+
+
 
 
 
@@ -148,7 +149,7 @@ h4 {
 #quote-1 {
 	width:80%;
 	height:50%;
-    padding-top:5%;
+    padding-top:4%;
     text-align:center;
 }
 #quote-1 q {
@@ -159,6 +160,12 @@ h4 {
 #quote-1 p {
     font-size: 1.8em;
     color: #808387;
+    text-align: center;
+}
+.divClass {
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
 #easing_wrapper {
