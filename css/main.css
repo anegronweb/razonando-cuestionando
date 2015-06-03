@@ -36,10 +36,20 @@ p {
 	line-height:1.1em;
 }
 
-q {
-	font-style:italic;
-	color:#333;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
+}
+
+
 
 h1 {
 	font-size:2.91em;
@@ -148,6 +158,7 @@ h4 {
 #quote-1 q {
     font-size: 2.5em;
     color: #808387;
+    font-style: italic;
 }
 #quote-1 p {
     font-size: 1.8em;
