@@ -169,7 +169,7 @@ h4 {
     padding-top: 4%;
     text-align: center;
 }
-#quote-1 blockquote {
+blockquote .quote-1 {
     font-size: 2.5em;
     color: #808387;
     font-style: italic;
@@ -177,7 +177,7 @@ h4 {
     line-height: 1.3em;
     
 }
-#quote-1 p {
+blockquote p {
     font-size: 1.8em;
     color: #808387;
     text-align: center;
@@ -187,7 +187,8 @@ h4 {
     color: coral;
 }
 .divClass {
-    width: 100%;
+	width: 100%;
+	display: block;
 }
 
 #easing_wrapper {
