@@ -11,6 +11,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+blockquote, q{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:"";
+    content:none;
+}
 
 html, body {
 	line-height: 1;
@@ -25,6 +41,7 @@ body {
 #wrapper {
     width: 80%;
     margin: 0 auto;
+    display: block;
 }
 
 ol, ul {
@@ -147,14 +164,17 @@ h4 {
 }
 
 #quote-1 {
-	width: 70%;
+	width: 80%;
 	height: 50%;
-    padding-top: 5%;
+    padding-top: 4%;
+    text-align: center;
 }
 #quote-1 blockquote {
     font-size: 2.5em;
     color: #808387;
     font-style: italic;
+    text-align: center;
+    line-height: 1.3em;
     
 }
 #quote-1 p {
@@ -167,9 +187,7 @@ h4 {
     color: coral;
 }
 .divClass {
-    text-align: center;
     width: 100%;
-    display: block;
 }
 
 #easing_wrapper {
