@@ -150,8 +150,8 @@ h4 {
 #intro {
 	width:80%;
 	left:50%;
-	top:1em;
-	margin-left: -47%;
+	top:10%;
+	margin-left: -51%;
 	padding:2em;
 	text-align:center;
 }
@@ -171,7 +171,7 @@ h4 {
 #quote-1 {
 	width: 80%;
 	height: 50%;
-    padding-top: 4%;
+    padding-top: 10%;
 }
 #quote-1 .em1 {
     font-weight: 200;
@@ -193,15 +193,25 @@ div .divClass {
 	margin-top: 5%;	
 }
 
-#easing_wrapper {
-	width:100%;
+#quote-2 {
+	width:80%;
 	height:100%;
+	top:10%;
 }
 
-#easing {
-	top:10%;
+#quote-2 p {
+	
 	width:50%;
 	z-index:101;
+	font-size: 2em;
+	color: #808387;
+	font-style: italic;
+	line-height: 1.1em;
+}
+#quote-2 .em2 {
+	font-size: 1.5em;
+	color: #D51616;
+	line-height: 1.1em;
 }
 
 .drop {
