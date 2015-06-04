@@ -147,20 +147,24 @@ h4 {
 }
 
 #quote-1 {
-	width:80%;
-	height:50%;
-    padding-top:4%;
-    text-align:center;
+	width: 70%;
+	height: 50%;
+    padding-top: 5%;
 }
-#quote-1 q {
+#quote-1 blockquote {
     font-size: 2.5em;
     color: #808387;
     font-style: italic;
+    
 }
 #quote-1 p {
     font-size: 1.8em;
     color: #808387;
     text-align: center;
+}
+#quote-1 .em1 {
+    font-weight: 200;
+    color: coral;
 }
 .divClass {
     text-align: center;
