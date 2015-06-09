@@ -200,9 +200,6 @@ div .divClass {
 }
 
 #quote-2 p {
-	
-	width:50%;
-	z-index:101;
 	font-size: 2em;
 	color: #808387;
 	font-style: italic;
@@ -211,6 +208,19 @@ div .divClass {
 #quote-2 .em2 {
 	font-size: 1.5em;
 	color: #D51616;
+	line-height: 1.1em;
+}
+
+#quote-3 {
+	width: 80%;
+	height: 100%;
+	top: 10%;	
+}
+
+#quote-3 p {
+	font-size: 2em;
+	color: #808387;
+	font-style: italic;
 	line-height: 1.1em;
 }
 
